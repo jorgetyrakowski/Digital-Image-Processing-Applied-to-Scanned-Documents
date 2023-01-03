@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="custom.css">
+    <title>Linear Algebra</title>
+</head>
+<body>
+    
+   <div class="container">
+        <div class="edit_container">
+            <h1>Improving readability</h1>
+            <input type="file" id="imagen" />
+        </div>
+
+       <div class="container_imagenes">
+        <img  alt="Select image" id="imagenPreview" class="imagenPreview">
+
+        <canvas id="select_canvas" class="select_canvas"  width="300px"
+        height= "300px"></canvas>
+       </div>
+       <div class="menu">
+           <button class="btn" id="restore" >Restore</button>
+           <button class="btn" id="rotate" >Rotate</button>
+            <button class="btn" id="contrast" >Contrast</button>
+            <button class="btn" id="grayscale" >Gray scale</button>
+        </div>
+   </div>
+
+    <!--Script-->
+    <script src="./index.js"></script>
+</body>
+</html>
